@@ -1,0 +1,294 @@
+/* css for nav bar */
+
+.container {
+   width: 100%;
+   margin: auto;
+}
+
+
+
+
+nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+nav li {
+   list-style: none;
+}
+
+.navItem a {
+   text-decoration: none;
+      background-color: none;
+      padding: 0;
+   cursor: pointer;
+   color: #333333;
+   list-style: none;
+   font-size: 1rem;
+   font-weight: 500;
+   padding-right: 3.75rem;
+}
+
+nav li:hover {
+   color: #007BFF;
+   transition: 0.5s ease;
+}
+
+
+nav ul {
+   display: flex;
+   margin: 0 auto;
+
+}
+
+
+
+.applyNow a {
+   text-decoration: none;
+   color: white;
+   font-size: 1rem;
+   background-color: #333333;
+   padding: 0.5rem 1rem;
+}
+
+.applyNow a:hover {
+   color: #007BFF;
+   background-color: transparent;
+   transition: 0.4s ease-in-out;
+   border: 0.08rem solid;
+   border-radius: 8px;
+}
+
+
+
+.navbar {
+   padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+   width: 80%;
+   margin: auto;
+}
+
+#menu-toggle {
+   display: none;
+}
+
+
+@media screen and (min-width:768px) and (
+   max-width: 1023px){
+
+
+.navbar {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      width: 90%;
+   
+   }
+   nav {
+      display: flex;
+      justify-content: space-between;
+   }
+
+
+   .applyNow {
+      display: flex;
+      gap: 1rem;
+   }
+
+
+.nav-list {
+      display: none;
+      list-style: none;
+      padding: 0;
+   }
+
+   #menu-toggle {
+      display: block;
+      background: none;
+         border: none;
+         cursor: pointer;
+         font-size: 1rem;
+         
+   }
+
+.navbar img {
+   height: 1.5rem;
+}
+
+
+.applyNow a {
+   text-decoration: none;
+   color: white;
+   font-size: 0.8rem;
+   background-color: #333333;
+   padding: 0.25rem 0.5rem;
+}
+
+
+ .nav-list.open {
+    display: flex;
+    flex-direction: column;
+    background-color: #022143;
+    position:absolute;
+    right: 5%;
+    top:4.5rem;
+    z-index: 2;
+
+
+    /* Display the nav-list as a vertical box when open */
+ }
+
+
+
+
+ .nav-list.open li {
+  color: white;
+
+    /* Display the nav-list as a vertical box when open */
+ }
+
+
+nav li {
+
+   color: #333333;
+  
+   font-size: 0.8rem;
+   font-weight: 400;
+  
+   padding-bottom: 1rem;
+   padding-top: 1rem;
+   padding-right: 3rem;
+   padding-left: 1.5rem;
+}
+
+
+
+
+
+
+
+   }
+
+
+@media screen and (max-width:767px) {
+.navbar {
+      padding-top: 0.25rem;
+      padding-bottom: 0.25rem;
+      width: 95%;
+
+   }
+
+   nav {
+      display: flex;
+      justify-content: space-between;
+   }
+
+
+   .applyNow {
+      display: flex;
+      gap: 1rem;
+   }
+
+
+   .nav-list {
+      display: none;
+      list-style: none;
+      padding: 0;
+   }
+
+   #menu-toggle {
+      display: block;
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 1rem;
+
+   }
+
+   .navbar img {
+      height: 1.25rem;
+   }
+
+
+   .applyNow a {
+      text-decoration: none;
+      color: white;
+      font-size: 0.6rem;
+      background-color: #333333;
+      padding: 0.2rem 0.4rem;
+   }
+
+
+   .nav-list.open {
+      display: flex;
+      flex-direction: column;
+      background-color: #022143;
+      position: absolute;
+      right: 2.5%;
+      top: 3.1rem;
+      z-index: 2;
+
+
+      /* Display the nav-list as a vertical box when open */
+   }
+
+
+
+
+   .nav-list.open li {
+      color: white;
+
+      /* Display the nav-list as a vertical box when open */
+   }
+
+
+   nav li {
+
+      color: #333333;
+
+      font-size: 0.6rem;
+      font-weight: 400;
+
+      padding-bottom: 1rem;
+      padding-top: 1rem;
+      padding-right: 2.5rem;
+      padding-left: 1.5rem;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@0;1&family=Montserrat:wght@400;500;600&display=swap');
+
+
+:root {
+  --top-font-size: 2.5rem;
+        
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Cardo', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+
+
+
+
+
+/* css for hero section */
+
+
+
+
+
+
+
+
+
+
+
+/* faqs */
+
+
+
+.faqsTop {
+  width: 80%;
+  padding-top:4rem;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.faqsTop h1 {
+color: #007BFF;
+  font-family: Montserrat;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+
+@media screen and (min-width:768px) and (max-width:1024px){
+
+.faqsTop {
+    width: 90%;
+    padding-top: 3rem;
+    margin: auto;
+    margin-bottom: 1.5rem;
+  }
+
+  .faqsTop h1 {
+    color: #007BFF;
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+}
+
+@media screen and (max-width:767px){
+.faqsTop {
+    width: 95%;
+    padding-top: 2rem;
+    margin: auto;
+    margin-bottom: 1.5rem;
+  }
+
+  .faqsTop h1 {
+    color: #007BFF;
+      font-family: Montserrat;
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

@@ -1,0 +1,305 @@
+/* testimonials 
+*/
+
+.testimonialWrapper {
+   width: 80%;
+   padding-top: 7rem;
+   margin: auto;
+}
+
+.testimonialContainer {
+   display: flex;
+   gap: 4rem;
+ 
+}
+
+
+.testimonialTop h1 {
+   color: #007BFF;
+   font-family: Montserrat;
+   font-size: var(--top-font-size);
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+.testimonialBox {
+   margin-top: 3rem;
+   margin-bottom: 3rem;
+
+   background: #FFF;
+   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+   width: 36rem;
+
+margin-left: auto;
+margin-right: auto;
+}
+
+.studentPhoto img {
+   width: 4.75rem;
+   height: 4.75rem;
+   flex-shrink: 0;
+   border-radius: 100rem;
+   border: 2px solid #007BFF;
+
+}
+
+.studentPhoto {
+   display: flex;
+   align-items: center;
+   gap: 1.5rem;
+
+}
+
+
+.studentPhoto h1 {
+   color: #1E1E1E;
+   font-family: Montserrat;
+   font-size: 1.4375rem;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   width: 15rem;
+}
+
+.studentPhoto p {
+   color: rgba(30, 30, 30, 0.75);
+   font-family: Montserrat;
+   font-size: 1rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+.studentDetails {
+   display: flex;
+   align-items: center;
+ gap:1rem;
+
+}
+
+
+.studentsReview p {
+   margin-top: 2rem;
+   color: #1E1E1E;
+   font-family: Montserrat;
+   font-size: 1rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+
+}
+
+
+.testimonialContents {
+   padding: 2rem;
+}
+
+
+
+
+/* Custom styles for navigation buttons */
+
+@media screen and (min-width:768px) and (max-width: 1023px) {
+
+
+.testimonialWrapper {
+      width: 90%;
+      padding-top: 5rem;
+
+   }
+
+   .testimonialContainer {
+      display: flex;
+      gap: 4rem;
+
+   }
+
+
+   .testimonialTop h1 {
+     font-size: 2rem;
+   }
+
+   .testimonialBox {
+      margin-top: 1.5rem;
+      margin-bottom: 3rem;
+
+      background: #FFF;
+      box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+      width: 38rem;
+
+      margin-left: auto;
+      margin-right: auto;
+   }
+
+   .studentPhoto img {
+      width: 4rem;
+      height: 4rem;
+      flex-shrink: 0;
+      border-radius: 100rem;
+      border: 2px solid #007BFF;
+
+   }
+
+   .studentPhoto {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+
+   }
+
+
+   .studentPhoto h1 {
+      color: #1E1E1E;
+      font-family: Montserrat;
+      font-size: 1.3rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      width: 18rem;
+   }
+
+   .studentPhoto p {
+      color: rgba(30, 30, 30, 0.75);
+      font-family: Montserrat;
+      font-size: 0.9rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+   }
+
+   .studentDetails {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+   }
+
+
+   .studentsReview p {
+      margin-top: 1rem;
+      color: #1E1E1E;
+      font-family: Montserrat;
+      font-size: 0.8rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+
+   }
+
+
+   .testimonialContents {
+      padding: 2rem;
+   }
+
+
+
+}
+
+
+
+
+@media screen and (max-width:767px) {
+
+
+.testimonialWrapper {
+      width: 95%;
+      padding-top: 4rem;
+
+   }
+
+
+
+   .testimonialTop h1 {
+     font-size: 1.5rem;
+   }
+
+   .testimonialBox {
+      cursor: pointer;
+      margin-top: 1.5rem;
+      margin-bottom: 2.5rem;
+
+      background: #FFF;
+      box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+      width: 95%;
+
+      margin-left: auto;
+      margin-right: auto;
+   }
+
+   .studentPhoto img {
+      width: 3rem;
+      height: 3rem;
+      flex-shrink: 0;
+      border-radius: 100rem;
+      border: 2px solid #007BFF;
+
+   }
+
+   .studentPhoto {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+
+   }
+
+
+   .studentPhoto h1 {
+      color: #1E1E1E;
+      font-family: Montserrat;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      width: 9rem;
+   }
+
+   .stars img {
+      height: 0.8rem;
+   }
+
+   .studentPhoto p {
+      color: rgba(30, 30, 30, 0.75);
+      font-family: Montserrat;
+      font-size: 0.6rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+   }
+
+   .studentDetails {
+      display: flex;
+      align-items: center;
+      gap: 0rem;
+
+   }
+
+
+   .studentsReview p {
+      margin-top: 0.8rem;
+      color: #1E1E1E;
+      font-family: Montserrat;
+      font-size: 0.7rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+
+   }
+
+
+   .testimonialContents {
+      padding: 1rem;
+   }
+
+
+
+}
+
+
+
+
+
+
+
+
+

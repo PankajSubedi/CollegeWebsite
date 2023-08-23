@@ -1,0 +1,293 @@
+/* team css */
+
+.team {
+   width: 80%;
+   margin: auto;
+}
+
+
+.ourTeamTop {
+   padding-top: 5.5rem;
+   display: flex;
+   padding-bottom: 3rem;
+
+}
+
+.ourTeamTop h1 {
+   color: #007BFF;
+   font-family: Montserrat;
+   font-size: 2.5rem;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+.details h1 {
+   margin-top: 0.8rem;
+   color: #1E1E1E;
+   font-family: Montserrat;
+   font-size: 1.5625rem;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+.details p {
+   margin-top: 0.4rem;
+   color: rgba(30, 30, 30, 0.75);
+   font-family: Montserrat;
+   font-size: 1rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+.details h2 {
+   margin-top: 0.8rem;
+   color: #1E1E1E;
+   font-family: Montserrat;
+   font-size: 1rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+.details h3 {
+   margin-top: 0.4rem;
+   color: rgba(30, 30, 30, 0.75);
+   font-family: Montserrat;
+   font-size: 1rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+
+.teamContainer {
+width: 100%;
+   background: #FFF;
+   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+.details {
+   margin: auto;
+   width: 90%;
+   padding: 1.5rem;
+}
+
+.details img {
+   width: 100%;
+}
+
+.teamSocial {
+   display: flex;
+   gap: 1.3rem;
+   margin-left: 1.5rem;
+   padding-bottom: 2.5rem;
+}
+
+.teamDisplay {
+  display: flex;
+  flex-wrap: wrap;
+   justify-content: space-between;
+   gap: 0;
+
+
+}
+
+.teamWrapper {
+   width: calc(33.33% - 2rem);
+   padding-bottom: 2rem;
+}
+
+
+
+
+
+
+
+@media screen and (min-width:768px) and (max-width: 1023px) {
+
+/* team css */
+
+   .team {
+      width: 90%;
+      margin: auto;
+   }
+
+
+   .ourTeamTop {
+      padding-top: 3rem;
+      display: flex;
+      padding-bottom: 1.5rem;
+
+   }
+
+   .ourTeamTop h1 {
+      font-size: 2rem;
+ 
+   }
+
+   .details h1 {
+      margin-top: 0.5rem;
+
+      font-size: 1.3rem;
+ 
+   }
+
+   .details p {
+      margin-top: 0.4rem;
+      font-size: 0.9rem;
+   
+   }
+
+   .details h2 {
+      margin-top: 0.6rem;
+      color: #1E1E1E;
+      font-family: Montserrat;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+   }
+
+   .details h3 {
+      margin-top: 0.4rem;
+      color: rgba(30, 30, 30, 0.75);
+      font-family: Montserrat;
+      font-size: 0.9rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+   }
+
+
+   .teamContainer {
+      width: 100%;
+      background: #FFF;
+      box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+   }
+
+   .details {
+      margin: auto;
+      width: 90%;
+      padding: 1rem;
+   }
+
+   .details img {
+      width: 100%;
+   }
+
+   .teamSocial {
+      display: flex;
+      gap: 1rem;
+      margin-left: 1rem;
+      padding-bottom: 2rem;
+   }
+
+ 
+
+   .teamWrapper {
+      width: calc(50% - 1rem);
+      padding-bottom: 2rem;
+   }
+
+
+}
+
+
+
+
+@media screen and (max-width:767px) {
+
+/* team css */
+
+   .team {
+      width: 95%;
+   }
+
+
+   .ourTeamTop {
+      padding-top: 3rem;
+      display: flex;
+      padding-bottom: 1rem;
+
+   }
+
+   .ourTeamTop h1 {
+      font-size: 1.5rem;
+
+   }
+
+   .details h1 {
+      margin-top: 0.5rem;
+
+      font-size: 1.2rem;
+
+   }
+
+   .details p {
+      margin-top: 0.3rem;
+      font-size: 0.8rem;
+
+   }
+
+   .details h2 {
+      margin-top: 0.5rem;
+      color: #1E1E1E;
+      font-family: Montserrat;
+      font-size: 0.9rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+   }
+
+   .details h3 {
+      margin-top: 0.3rem;
+      color: rgba(30, 30, 30, 0.75);
+      font-family: Montserrat;
+      font-size: 0.8rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+   }
+
+
+   .teamContainer {
+      width: 100%;
+      background: #FFF;
+      box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+   }
+
+   .details {
+      margin: auto;
+      width: 90%;
+      padding: 1rem;
+   }
+
+   .details img {
+      width: 100%;
+   }
+
+   .teamSocial {
+      display: flex;
+      gap: 1rem;
+      margin-left: 1rem;
+      padding-bottom: 1.5rem;
+   }
+
+
+
+   .teamWrapper {
+      width: calc(100%);
+      padding-bottom: 1.5rem;
+   }
+
+}
+
+
+
+
+
+
+

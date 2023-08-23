@@ -1,0 +1,108 @@
+/* css for topBar */
+.topBar {
+   background: #007BFF;
+   height: 3.125rem;
+   align-items: center;
+   display: flex;
+   margin: auto;
+   justify-content: space-between;
+
+}
+.topBarWrapper {
+   width: 90%;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+}
+
+.topBar ul {
+   display: flex;
+
+}
+
+.topBar li {
+   color: #FFF;
+   font-size: 0.875rem;
+   font-weight: 500;
+   list-style: none;
+   padding-right: 5.3rem;
+}
+
+.topBar a {
+   text-decoration: none;
+   color: white;
+   font-size: 0.875rem;
+
+
+}
+
+
+/* responsive */
+
+@media  screen and ( min-width:768px)and (max-width:1023px){
+
+
+.topBar {
+     
+      height: 2rem;
+
+   }
+
+.topBar a {
+   font-size: 0.6rem;
+
+
+}
+
+.topBar li {
+   font-size: 0.6rem;
+   padding-right: 3rem;
+}
+
+
+
+
+}
+
+
+
+@media screen and (max-width:767px) {
+
+
+
+.topBarWrapper {
+      width: 95%;
+      
+   }
+
+
+   .topBar {
+   
+         height: 1.25rem;
+   
+      }
+   
+      .topBar a {
+         font-size: 0.4rem;
+   
+   
+      }
+   
+      .topBar li {
+         font-size: 0.4rem;
+         padding-right: 1.5rem;
+            font-weight: 400;
+      }
+
+
+
+}
+
+
+
+
+
+
+
+
+

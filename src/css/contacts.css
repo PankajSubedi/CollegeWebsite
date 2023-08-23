@@ -1,0 +1,585 @@
+
+.contactWrapper {
+   width: 80%;
+   margin: auto;
+   margin-top: 7rem;
+}
+
+.contactContainer {
+   margin-top: 3rem;
+   display: flex;
+   height: 40rem;
+      box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.contactTop h1{
+   color: #007BFF;
+      font-family: Montserrat;
+      font-size: 2.5rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+}
+
+
+.image-container {
+   position: relative;
+   height: 100%;
+   width: 100%;
+
+}
+.image-container img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   /* Maintain aspect ratio and cover the container */
+}
+
+.contactDetails {
+   position: absolute;
+   top: 10%;
+   left: 10%;
+   right: 5%;
+
+}
+
+.contactDetails h1 {
+color: #1E1E1E;
+   font-family: Montserrat;
+   font-size: 2rem;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+.contactDetails p {
+margin-top: 1rem;
+color: #1E1E1E;
+   font-family: Montserrat;
+   font-size: 1.3rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+.cta img {
+   width: 1.5rem;
+   height: 1.5rem;
+}
+
+.cta {
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+}
+
+.cta h1{
+
+   color: #1E1E1E;
+   font-family: Montserrat;
+   font-size: 1.3rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+
+}
+
+
+.ctaContainer {
+margin-top: 5rem;
+   display: grid;
+   gap:3rem;
+}
+
+
+
+.contactSocial {
+   margin-top: 7rem;
+   display:flex;
+   gap:1rem;
+
+}
+
+.contactSocial img {
+   height: 1.5rem;
+   width: 1.5rem;
+}
+
+
+
+.contactForm {
+   background-color: #1E1E1E;
+   height: 100%;
+   width: 100%;
+}
+
+.contactField {
+  padding-top:8%;
+   height: 90%;
+   width: 80%;
+   margin: auto;
+
+}
+
+
+
+input, text {
+   border: 2px solid #FFF;
+   background-color: #1E1E1E;
+   width: 100%;
+   height: 5rem;
+   color: #FFF;
+      font-family: Montserrat;
+      font-size: 1.3rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+}
+
+textarea {
+   resize: none;
+   border: 2px solid #FFF;
+   background-color: #1E1E1E;
+   width: 100%;
+   color: #FFF;
+      font-family: Montserrat;
+      font-size: 1.3rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+}
+
+
+.contactInput {
+   display: flex;
+   flex-direction: column;
+  gap: 2.5rem;
+}
+
+
+input[type="submit"] {
+   margin-top: 1.3rem;
+   border: none;
+   width: 100%;
+   cursor: pointer;
+   background: #FFC107;
+   color: #1E1E1E;
+      font-family: Montserrat;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      transition: all 0.3s ease-in;
+
+
+      &:hover {
+      background: #007BFF;
+         color: white;
+         border: none;
+      }
+
+}
+
+
+@media screen and (min-width:768px) and ( max-width:1024px){
+
+.contactWrapper {
+      width: 90%;
+      margin-top: 4rem;
+   }
+
+   .contactContainer {
+      margin-top: 2rem;
+      display: flex;
+      height: 40rem;
+      box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+   }
+
+
+
+   .contactTop h1 {
+      color: #007BFF;
+      font-family: Montserrat;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+   }
+
+
+   .image-container {
+      position: relative;
+      height: 100%;
+      width: 100%;
+
+   }
+
+   .image-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      /* Maintain aspect ratio and cover the container */
+   }
+
+   .contactDetails {
+      position: absolute;
+      top: 10%;
+      left: 10%;
+      right: 5%;
+
+   }
+
+   .contactDetails h1 {
+      color: #1E1E1E;
+      font-family: Montserrat;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+   }
+
+   .contactDetails p {
+      margin-top: 1rem;
+      color: #1E1E1E;
+      font-family: Montserrat;
+      font-size: 1.2rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+   }
+
+   .cta img {
+      width: 1.5rem;
+      height: 1.5rem;
+   }
+
+   .cta {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+   }
+
+   .cta h1 {
+
+      color: #1E1E1E;
+      font-family: Montserrat;
+      font-size: 1.3rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+
+   }
+
+
+   .ctaContainer {
+      margin-top: 5rem;
+      display: grid;
+      gap: 3rem;
+   }
+
+
+
+   .contactSocial {
+      margin-top: 7rem;
+      display: flex;
+      gap: 1rem;
+
+   }
+
+   .contactSocial img {
+      height: 1.5rem;
+      width: 1.5rem;
+   }
+
+
+
+   .contactForm {
+      background-color: #1E1E1E;
+      height: 100%;
+      width: 100%;
+   }
+
+   .contactField {
+      padding-top: 8%;
+      height: 90%;
+      width: 80%;
+      margin: auto;
+
+   }
+
+
+
+   input,
+   text {
+      border: 2px solid #FFF;
+      background-color: #1E1E1E;
+      width: 100%;
+      height: 5rem;
+      color: #FFF;
+      font-family: Montserrat;
+      font-size: 1.3rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+   }
+
+   textarea {
+      resize: none;
+      border: 2px solid #FFF;
+      background-color: #1E1E1E;
+      width: 100%;
+      color: #FFF;
+      font-family: Montserrat;
+      font-size: 1.3rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+   }
+
+
+   .contactInput {
+      display: flex;
+      flex-direction: column;
+      gap: 2.5rem;
+   }
+
+
+   input[type="submit"] {
+      margin-top: 1.3rem;
+      border: none;
+      width: 100%;
+      cursor: pointer;
+      background: #FFC107;
+      color: #1E1E1E;
+      font-family: Montserrat;
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      transition: all 0.3s ease-in;
+
+
+      &:hover {
+         background: #007BFF;
+         color: white;
+         border: none;
+      }
+
+   }
+
+
+
+}
+
+
+@media screen and (max-width:767px) {
+
+.contactWrapper {
+      width: 95%;
+      margin-top:3rem;
+   }
+
+   .contactContainer {
+      margin-top: 1.5rem;
+      display: flex;
+      flex-direction: column;
+     
+      box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+   }
+
+
+
+   .contactTop h1 {
+      color: #007BFF;
+      font-family: Montserrat;
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+   }
+
+
+   .image-container {
+      position: relative;
+      height: 45%;
+      width: 100%;
+
+   }
+
+   .image-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      /* Maintain aspect ratio and cover the container */
+   }
+
+   .contactDetails {
+      position: absolute;
+      top: 5%;
+      left: 5%;
+      right: 5%;
+
+   }
+
+   .contactDetails h1 {
+      color: #1E1E1E;
+      font-family: Montserrat;
+      font-size: 1.3rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+   }
+
+   .contactDetails p {
+      margin-top: 0.3rem;
+      color: #1E1E1E;
+      font-family: Montserrat;
+      font-size: 0.9rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+   }
+
+   .cta img {
+      width: 1rem;
+      height: 1rem;
+   }
+
+   .cta {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+   }
+
+   .cta h1 {
+
+      color: #1E1E1E;
+      font-family: Montserrat;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+
+   }
+
+
+   .ctaContainer {
+      margin-top: 2rem;
+      display: grid;
+      gap: 1rem;
+   }
+
+
+
+   .contactSocial {
+      margin-top: 2rem;
+      display: flex;
+      gap: 1rem;
+
+   }
+
+   .contactSocial img {
+      height: 1.5rem;
+      width: 1.5rem;
+   }
+
+
+
+   .contactForm {
+      background-color: #1E1E1E;
+      height: 55%;
+      width: 100%;
+   }
+
+   .contactField {
+      padding-top: 4%;
+      height: 90%;
+      width: 90%;
+      margin: auto;
+
+   }
+
+
+
+   input,
+   text {
+      border: 1px solid #FFF;
+      background-color: #1E1E1E;
+      width: 100%;
+      height: 3rem;
+      color: #FFF;
+      font-family: Montserrat;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+   }
+
+   textarea {
+      resize: none;
+      border: 1px solid #FFF;
+      background-color: #1E1E1E;
+      width: 100%;
+      height: 6rem;
+      color: #FFF;
+      font-family: Montserrat;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+   }
+
+
+   .contactInput {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+   }
+
+
+   input[type="submit"] {
+      margin-top: 1.3rem;
+      border: none;
+      width: 100%;
+      cursor: pointer;
+      background: #FFC107;
+      color: #1E1E1E;
+      font-family: Montserrat;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      transition: all 0.3s ease-in;
+
+
+      &:hover {
+         background: #007BFF;
+         color: white;
+         border: none;
+      }
+
+   }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

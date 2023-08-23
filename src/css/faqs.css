@@ -1,0 +1,203 @@
+
+
+
+.faqsWrapper {
+   width: 80%;
+   margin: auto;
+margin-bottom: 2rem;
+}
+
+.faqsTop h1 {
+   color: #007BFF;
+      font-family: Montserrat;
+      font-size: 2.5rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+}
+
+.faqQuestion {
+   background: #1E1E1E;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.faqQuestion h1 {
+
+padding: 1.5rem;
+color: #FFF;
+   font-family: Montserrat;
+   font-size: 1.5rem;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+.dropDown {
+   background: #FFC107;
+   display: flex;
+   width: 5rem;
+   height: 5rem;
+
+}
+
+.dropDown p {
+  margin: auto;
+
+font-size: 1.5rem;
+cursor: pointer;
+}
+
+
+p::selection {
+   background-color: #00000023;
+}
+
+
+
+.faqAnswer h1 {
+   padding-top: 1rem;
+   color: #1E1E1E;
+      font-family: Montserrat;
+      font-size: 1.25rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      padding-bottom: 1rem;
+}
+
+
+@media screen and (min-width:768px) and (max-width:1023px){
+
+.faqsWrapper {
+      width: 90%;
+      margin: auto;
+      margin-bottom: 1rem;
+   }
+
+   .faqsTop h1 {
+      font-size: 2rem;
+     
+   }
+
+   .faqQuestion h1 {
+
+      padding: 1rem;
+      color: #FFF;
+      font-family: Montserrat;
+      font-size: 1.3rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+   }
+
+
+   .dropDown {
+      background: #FFC107;
+      display: flex;
+      width: 4rem;
+      height: 4rem;
+
+   }
+
+   .dropDown p {
+      margin: auto;
+
+      font-size: 1.5rem;
+      cursor: pointer;
+   }
+
+
+   p::selection {
+      background-color: #00000023;
+   }
+
+
+
+   .faqAnswer h1 {
+      padding-top: 0.8rem;
+      color: #1E1E1E;
+      font-family: Montserrat;
+      font-size: 1.1rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      padding-bottom: 0rem;
+   }
+
+
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width:767px) {
+
+
+.faqsWrapper {
+      width: 95%;
+      margin: auto;
+      margin-bottom: 1rem;
+   }
+
+   .faqsTop h1 {
+      font-size: 1.5rem;
+
+   }
+
+   .faqQuestion h1 {
+
+      padding: 0rem 0.5rem ;
+      color: #FFF;
+      font-family: Montserrat;
+      font-size: 0.8rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+   }
+
+
+   .dropDown {
+      background: #FFC107;
+      display: flex;
+      width: 4rem;
+      height: 4rem;
+
+   }
+
+   .dropDown p {
+      margin: auto;
+
+      font-size: 1.5rem;
+      cursor: pointer;
+   }
+
+
+   p::selection {
+      background-color: #00000023;
+   }
+
+
+
+   .faqAnswer h1 {
+      padding-top: 0.4rem;
+      color: #1E1E1E;
+      font-family: Montserrat;
+      font-size: 0.8rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      padding-bottom: 0rem;
+   }
+
+
+
+}
+
+
+

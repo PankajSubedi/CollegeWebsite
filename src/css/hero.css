@@ -1,0 +1,414 @@
+.readMore {
+   cursor: pointer;
+   margin-top: 3.75rem;
+   padding: 1rem 1.5rem;
+   display: flex;
+   gap: 0.4rem;
+   align-items: center;
+   color: #1E1E1E;
+   font-family: Montserrat;
+   font-size: 1.25rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   background-color: #FFC107;
+   width: 10rem;
+   text-align: center;
+}
+
+.readMore:hover {
+   color: white;
+   background-color: transparent;
+   transition: 0.4s ease-in-out;
+   border: 0.08rem solid;
+   border-radius: 8px;
+}
+
+.heroSection {
+   margin: 0 auto;
+}
+
+.heroDetails {
+   position: absolute;
+   display: flex;
+   top: 18rem;
+   width: 80%;
+   left: 10%;
+   right: 10%;
+   z-index: 1;
+}
+
+.heroButtons {
+   display: grid;
+   height: 2rem;
+
+}
+
+.heroButtons img {
+   padding-bottom: 3rem;
+}
+
+
+
+.heroTitle {
+   margin-left: 3rem;
+   display: grid;
+
+
+}
+
+.heroTitle h1 {
+   color: #FFF;
+   font-family: Cardo;
+   font-size: 5rem;
+   font-weight: 400;
+   font-style: normal;
+   line-height: 109.9%;
+
+}
+
+
+.heroTitle p {
+   margin-top: 2.5rem;
+   color: rgba(255, 255, 255, 0.75);
+   font-family: Montserrat;
+   font-size: 1.875rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+/* .heroTitle a{
+  margin-top: 3.75rem;
+  padding:  0.75rem 0.3rem;
+  align-items: center;
+  text-align: center;
+color: #1E1E1E;
+  font-family: Montserrat;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: #FFC107;
+  width: 11rem;
+ 
+} */
+
+
+
+
+.notification {
+   height: fit-content;
+   background: #FFC107;
+   position: absolute;
+   right: 0;
+   bottom: -100%;
+   width:35rem;
+
+}
+
+.notification h1 {
+   color: #000;
+   font-family: Montserrat;
+   font-size: 2rem;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+.notification p {
+   padding-top: 1rem;
+   color: #1E1E1E;
+   font-family: Montserrat;
+   font-size: 1.3rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+.readMoreNotification {
+   cursor: pointer;
+   padding-top: 2rem;
+   display: flex;
+   gap: 0.4rem;
+   align-items: center;
+   color: #1E1E1E;
+   font-family: Montserrat;
+   font-size: 1.25rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   background-color: #FFC107;
+   width: 10rem;
+   text-align: center;
+}
+
+
+
+/* padding for notification content */
+.notification_text {
+   padding: 2rem 2rem;
+}
+
+
+
+.heroImages  {
+   display: flex;
+   position: relative;
+   height: 65%;
+}
+
+
+@media screen and (min-width:768px) and (max-width: 1023px) {
+
+
+
+.readMore {
+         
+         margin-top: 2.5rem;
+         
+            font-size: 1.1rem;
+            width: 8rem;
+   }
+
+
+
+   .heroDetails {
+      position: absolute;
+      display: flex;
+      top: 20%;
+      width: 90%;
+      left: 5%;
+      right: 5%;
+      z-index: 1;
+   }
+
+   .heroButtons {
+      display: grid;
+      height: 1.5rem;
+
+   }
+
+   .heroButtons img {
+      padding-bottom: 2rem;
+      height: 3rem;
+   }
+
+
+
+   .heroTitle {
+      margin-left: 2rem;
+
+
+   }
+
+   .heroTitle h1 {
+      font-size: 4rem;
+      font-weight: 400;
+      line-height: 120.9%;
+
+   }
+
+
+   .heroTitle p {
+      margin-top: 1rem;
+      font-size: 1.4rem;
+      font-weight: 400;
+
+   }
+
+
+
+
+
+   .notification {
+      bottom: -60%;
+      width: 25rem;
+
+   }
+
+   .notification h1 {
+    
+      font-size: 1.5rem;
+      
+      font-weight: 500;
+      
+   }
+
+   .notification p {
+      padding-top: 0.5rem;
+      font-size: 1rem;
+    
+   }
+
+   .readMoreNotification {
+     
+      padding-top: 1rem;
+  
+   
+      font-size: 1.1rem;
+   
+      
+ 
+   }
+
+
+
+   /* padding for notification content */
+   .notification_text {
+      padding: 1rem 1rem;
+   }
+
+
+
+   .heroImages {
+      display: flex;
+      position: relative;
+      height: 30%;
+   }
+
+
+   .heroImage {
+      height: 70%;
+   }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:767px) {
+
+
+   .readMore {
+
+      margin-top: 1.3rem;
+
+      font-size: 0.8rem;
+      width: 7rem;
+      padding: 0.5rem 0.3rem;
+   }
+
+.readMore img{
+   height: 1rem;
+}
+
+
+
+
+   .heroDetails {
+      position: absolute;
+      display: flex;
+      top: 20%;
+      width: 95%;
+      left: 2.5%;
+      right: 2.5%;
+      z-index: 1;
+   }
+
+   .heroButtons img {
+      padding-bottom: 1rem;
+      height: 2rem;
+   }
+
+
+
+   .heroTitle {
+      margin-left: 1rem;
+
+
+   }
+
+   .heroTitle h1 {
+      font-size: 2rem;
+
+
+   }
+
+
+   .heroTitle p {
+      margin-top: 0.8rem;
+      font-size: 0.8rem;
+      font-weight: 300;
+
+   }
+
+
+
+
+
+   .notification {
+      bottom: -100%;
+      width: 15rem;
+
+   }
+
+   .notification h1 {
+
+      font-size: 1rem;
+
+      font-weight: 500;
+
+   }
+
+   .notification p {
+      padding-top: 0.5rem;
+      font-size: 0.6rem;
+
+   }
+
+   .readMoreNotification {
+
+      padding-top: 0.7rem;
+
+
+      font-size: 0.8rem;
+
+
+
+   }
+
+   .readMoreNotification img{
+height: 1rem;
+
+   }
+
+
+
+   /* padding for notification content */
+   .notification_text {
+      padding: 1rem 1rem;
+   }
+
+
+
+   .heroImages {
+      display: flex;
+      position: relative;
+  
+   }
+
+
+   .heroImage {
+      height: 45%;
+   }
+
+
+}
+
+
+
+
